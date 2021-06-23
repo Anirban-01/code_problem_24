@@ -1,0 +1,18 @@
+# Write a Python program to get the least common multiple (LCM) of two positive integers.
+
+
+def LCM_function():
+
+    given_number = int(input('enter any number to be divided: '))
+
+    x = int(input('enter number1: '))
+    y = int(input('enter number2: '))
+
+    if given_number % x == 0 and given_number % y == 0:
+        print('both x and y is divisible by given_number')
+        print("The least common multiple is :", given_number)
+    else:
+        print("Both x and y are not divisible to given_number")
+
+
+LCM_function()
